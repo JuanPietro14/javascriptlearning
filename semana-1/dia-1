@@ -2,6 +2,10 @@
 Javascript Completo - Origamid
 
   Aula 01 - Manipulação de DOM
+O DOM (Document Object Model) é uma interface de programação que representa estruturas de documentos XML e HTML como uma árvore de objetos.
+Ele fornece uma maneira de interagir e manipular dinamicamente o conteúdo, a estrutura e o estilo de um documento, permitindo que scripts, como JavaScript, alterem o conteúdo e o comportamento da página web.
+o DOM é uma representação programática da estrutura de um documento HTML ou XML, oferecendo uma interface para manipulação e interação com o conteúdo da página web usando linguagens de script, como JavaScript.
+
 
     <body>
 
