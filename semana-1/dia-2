@@ -1,0 +1,30 @@
+Javascript Completo - Origamid
+
+    Objetos-
+
+  Objetos em JavaScript são estruturas de dados que contêm propriedades (dados) e métodos (funções).
+  Eles podem ser criados usando a notação literal {} ou o construtor new Object().
+  As propriedades são acessadas com notação de ponto ou colchetes.
+  A palavra-chave this refere-se ao objeto atual, e construtores são usados para criar objetos usando funções.
+    JavaScript usa protótipos para permitir herança entre objetos.
+    Além disso, objetos podem ser convertidos em JSON para troca de dados.
+      Esses conceitos são fundamentais para a programação orientada a objetos em JavaScript.
+
+
+      <body>
+
+    <script>
+        function Livro(nome, ano, autor){
+            const nomemaior= nome.toUpperCase();
+            const anototal= 2023 - ano;
+            const autorlivro= nome + ' por ' + autor;
+            const obj = {
+                anototal,
+                autorlivro,
+            }
+            return obj;
+        }
+        const livroRetorno=Livro('fuhrer', 1945, 'AH')
+    </script>
+
+</body>
