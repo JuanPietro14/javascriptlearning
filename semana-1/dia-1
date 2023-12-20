@@ -1,1 +1,21 @@
 
+Javascript Completo - Origamid
+
+  Aula 01 - Manipulação de DOM
+
+    <body>
+
+    <nav>
+        <ul id="menu">
+                <li><a href="Home">Home</a></li>
+                <li class="produtos"><a href="Produtos">Produtos</a></li>
+
+        </ul>
+    </nav>
+
+    <script>
+        const nav = document.querySelector('nav')
+        console.log(nav)
+    </script>
+  
+  </body>
