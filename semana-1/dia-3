@@ -1,0 +1,35 @@
+Eventos
+
+
+  Eventos são ações ou ocorrências que acontecem no sistema que estamos desenvolvendo, no qual este te alerta sobre essas ações para que você possa responder de alguma forma, se desejado.
+  Por exemplo, se o usuário clica em um botão numa pagina web, alterna a visibilidade de uma frase, fazendo com que ela apareça ou despareça.
+
+
+
+<body>
+    <h1>test js</h1>
+    <button class="botao">Mais Informações</button>
+    <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, neque.</p>
+    
+    <style>
+        .texto{
+        display: none;
+        }
+  
+        .texto.ativar{
+        display: block;
+        }
+    </style>
+      
+    <script>
+        const botao = document.querySelector('.botao');
+
+        function mostrar() {
+            const texto = document.querySelector('.texto');
+            texto.classList.toggle('ativar');
+        }
+
+        botao.addEventListener('click', mostrar);
+    </script>
+</body>
+    
