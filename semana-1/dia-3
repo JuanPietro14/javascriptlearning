@@ -1,8 +1,27 @@
-Eventos
+Eventos ->
 
 
   Eventos são ações ou ocorrências que acontecem no sistema que estamos desenvolvendo, no qual este te alerta sobre essas ações para que você possa responder de alguma forma, se desejado.
   Por exemplo, se o usuário clica em um botão numa pagina web, alterna a visibilidade de uma frase, fazendo com que ela apareça ou despareça.
+
+
+Funções ->
+
+  Em JavaScript, uma função é um bloco de código que realiza uma tarefa específica ou calcula um valor.
+Elas são essenciais para organizar e reutilizar o código, permitindo a modularidade e a manutenção.
+Características:
+Funções podem receber dados, chamados de parâmetros, para realizar operações específicas.
+Podem retornar valores usando a palavra-chave return.
+Possuem escopo, o que significa que as variáveis declaradas dentro de uma função são acessíveis apenas dentro dela.
+
+Funções e Manipulação do DOM:
+
+  Funções JavaScript são frequentemente usadas para interagir com o DOM.
+Exemplos comuns incluem a alteração de conteúdo, a modificação de estilos e a manipulação de eventos.
+Eventos e Callbacks:
+
+O DOM permite que você associe funções a eventos, como cliques de botão, alterações de formulário, etc.
+Essas funções são chamadas de "callbacks" e são executadas quando o evento ocorre.
 
 
 
