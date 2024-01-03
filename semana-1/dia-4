@@ -1,0 +1,41 @@
+//Localiza a seção de depuração do documento, examinando os atributos de identificação HTML
+//Se não existe elemento algum com a identificação "debuglog", cria um.
+
+
+<script>
+  
+        var log = document.getElementById("debuglog");
+
+        if (!log){
+            log = document.createElement("div");
+            log.id = "debuglog";
+
+            log.innerHTML="<h1> Debug Log </h1>";
+            document.body.appendChild(log);
+        }
+
+    </script>
+
+      // Agora, coloca a mensagem em seu próprio <pre> e a anexa no log
+      <script>
+      
+        function debug(msg){
+            var log = document.getElementById("debuglog");
+
+            if (!log){
+                log = document.createElement("div");
+                log.id = "debuglog";
+
+                log.innerHTML="<h1> Debug Log </h1>";
+                document.body.appendChild(log);
+            }
+
+            var pre = document.createElement("pre");
+            var text = document.createTextNode(msg);
+            pre.appendChild(text);
+            log.appendChild(pre);
+        }
+
+      </script>
+
+      
